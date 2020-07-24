@@ -2,13 +2,45 @@
 <html lang="en">
 
 <head>
-	<title>This is Drow Facts</title>
+	<title>DrowFacts Main Screen</title>
 	<style>
+    body {
+      background:lightgrey;
+    }
+    h1 {
+      background:red;
+      font-style:italic;
+      font-size:180px;
+      border-size:10;
+      margin:0px;
+    }
+    h2 {
+      background: yellow;
+      font-size:150%;
+    }
+    #textbox {
+      background:white;
+      padding:20px;
+      height:700px;
+      font-size:45px;
+    }
+    #BTN1 {
+      background:salmon;
+      padding:20px;
+      text-align: center;
+      border-radius:15px;
+      font-size:200%;
+    }
 	</style>
-  <script src="script.js"></script>
+  <script src="scriptindex.js"></script>
 </head>
 
-<body>
+<body  onload="setUpTheButton()">
+  <h1>DrowFacts!</h1>
+  <h2>Thank you for using the DrowFacts subscription service!!!!</h2>
+  <div id="textbox">Press the button for a random fact!</div>
+  <div id="BTN1">Summon a Drow Fact!</div>
 </body>
+
 
 </html>
